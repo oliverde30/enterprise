@@ -17,7 +17,7 @@
 <div class="warp_main">
     <div class="warp_left">
         <div class="warp_left_box">
-            <h3>Service Area</h3>
+            <h3>Service</h3>
             <ul>
                 <c:forEach var="item" items="<%=SystemManage.getInstance().getService()%>">
                     <li <c:if test="${!empty id && id eq item.id}">class="active"</c:if> ><a href="<%=path%>/service/${item.id}">${item.title}</a></li>
@@ -50,15 +50,9 @@
                         System.out.println(id);
                         if ((String.valueOf(ac.getId())).equals(id)) {
                 %>
-                        <%=ac.getContentHtml()%>
-                <%
-                            break;
-                        }else{%>
                 <%=ac.getContentHtml()%>
-                <% break;
-                            }
-                    }
-                %>
+                <% }
+                }%>
             </div>
         </div>
     </div>
