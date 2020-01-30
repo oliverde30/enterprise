@@ -48,7 +48,12 @@
                 <%
                     for (Service ac : SystemManage.getInstance().getService()) {
                         System.out.println(id);
-                        if ((String.valueOf(ac.getId())).equals(id)) {
+                        if(StringUtils.isBlank(id)){
+                %>
+                <%=ac.getContentHtml()%>
+                <%break;
+                }
+                    if ((String.valueOf(ac.getId())).equals(id)) {
                 %>
                 <%=ac.getContentHtml()%>
                 <% }
