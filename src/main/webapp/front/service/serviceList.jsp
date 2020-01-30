@@ -11,7 +11,7 @@
 <%@include file="/front/common/common.jsp" %>
 <body>
 <%@include file="/front/common/navigation.jsp" %>
-<div class="banner" style="background-image: url(<%=path%>/resource/images/banner.jpg)">
+<div class="banner" style="background-image: url(<%=path%>/resource/images/ban.jpg)">
 
 </div>
 <div class="warp_main">
