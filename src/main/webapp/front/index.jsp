@@ -56,24 +56,24 @@
         <li class="banners_li">
             <a href="<%=path%>/service">
                 <div>
-                    <h3>服务领域</h3>
-                    <p>别墅装修，校区装修</p>
+                    <h3>Service Area</h3>
+                    <p>ERP, Construction Materials and Wearable Products</p>
                 </div>
             </a>
         </li>
         <li class="banners_li">
-            <a href="<%=path%>/article">
-                <div>
-                    <h3>新闻动态</h3>
-                    <p>公司动态，行业新闻</p>
-                </div>
-            </a>
+<%--            <a href="<%=path%>/article">--%>
+<%--                <div>--%>
+<%--                    <h3>新闻动态</h3>--%>
+<%--                    <p>公司动态，行业新闻</p>--%>
+<%--                </div>--%>
+<%--            </a>--%>
         </li>
         <li class="banners_li banners_li_last">
             <a href="<%=path%>/about">
                 <div>
-                    <h3>关于我们</h3>
-                    <p>了解我们，了解华宇</p>
+                    <h3>About us</h3>
+                    <p>Know more...</p>
                 </div>
             </a>
         </li>

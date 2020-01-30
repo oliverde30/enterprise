@@ -5,15 +5,14 @@
   Time: 17:04
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page language="java" contentType="text/html; UTF-8"
-         pageEncoding="UTF-8" %>
+<%@ page language="java" contentType="text/html; UTF-8" pageEncoding="UTF-8" %>
 <style>
 
     .nav{
         list-style: none outside none;
     }
     .nav li {
-        width: 77px;
+        width: 120px;
         height: 107px;
         float: left;
         line-height: 107px;
@@ -46,25 +45,25 @@
     <div style="width: 768px;height: 107px;float: right;overflow: hidden">
         <ul class="nav">
             <li>
-                <a href="<%=path%>/index">首 页</a>
+                <a href="<%=path%>/index">Home</a>
             </li>
             <li>
-                <a href="<%=path%>/about">关于我们</a>
+                <a href="<%=path%>/about">About us</a>
             </li>
             <li>
-                <a href="<%=path%>/service">服务领域</a>
+                <a href="<%=path%>/service">Service Area</a>
             </li>
+<%--            <li>--%>
+<%--                <a href="<%=path%>/article">新闻动态</a>--%>
+<%--            </li>--%>
+<%--            <li>--%>
+<%--                <a href="<%=path%>/recruitment">诚聘英才</a>--%>
+<%--            </li>--%>
+<%--            <li>--%>
+<%--                <a href="<%=path%>/message">在线留言</a>--%>
+<%--            </li>--%>
             <li>
-                <a href="<%=path%>/article">新闻动态</a>
-            </li>
-            <li>
-                <a href="<%=path%>/recruitment">诚聘英才</a>
-            </li>
-            <li>
-                <a href="<%=path%>/message">在线留言</a>
-            </li>
-            <li>
-                <a href="<%=path%>/contact">联系我们</a>
+                <a href="<%=path%>/contact">Contact us</a>
             </li>
         </ul>
     </div>

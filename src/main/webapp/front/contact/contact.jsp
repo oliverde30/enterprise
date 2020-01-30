@@ -16,15 +16,15 @@
 <div class="warp_main">
     <div class="warp_left">
         <div class="warp_left_box">
-            <h3>联系我们</h3>
+            <h3>Contact us</h3>
 
         </div>
     </div>
     <div class="warp_right">
         <div class="breadcrumb">
-            <a href="<%=path%>/index">首页</a>
+            <a href="<%=path%>/index">Home</a>
             >
-            <a href="<%=path%>/contact">联系我们</a>
+            <a href="<%=path%>/contact">Contact us</a>
         </div>
         <div style="overflow: hidden;">
             <div class="article_content">

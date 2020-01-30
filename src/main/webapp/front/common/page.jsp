@@ -35,10 +35,10 @@
 
         <pg:param name="cc" />
         <pg:first>
-            <a href="${pageUrl}" class="pageLink">首页</a>
+            <a href="${pageUrl}" class="pageLink">home</a>
         </pg:first>
         <pg:prev>
-            <a href="${pageUrl}" class="pageLink">上一页</a>
+            <a href="${pageUrl}" class="pageLink">previous</a>
         </pg:prev>
         <pg:pages>
             <c:choose>
@@ -51,10 +51,10 @@
             </c:choose>
         </pg:pages>
         <pg:next>
-            <a href="${pageUrl}" class="pageLink">下一页</a>
+            <a href="${pageUrl}" class="pageLink">next</a>
         </pg:next>
         <pg:last>
-            <a href="${pageUrl}" class="pageLink">尾页</a>
+            <a href="${pageUrl}" class="pageLink">tail</a>
         </pg:last>
     </pg:pager>
 </div>

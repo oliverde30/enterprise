@@ -11,17 +11,17 @@
     <div class="foot_top">
         <div style="width: 1000px;margin: 12px auto 0;overflow: hidden;">
             <ul>
-                <li>友情链接：</li>
-                <c:forEach var="item" items="<%=SystemManage.getInstance().getFriendLinks()%>">
-                    <li><a href="${item.url}" target="${item.target}">${item.name}</a></li>
-                </c:forEach>
+<%--                <li>友情链接：</li>--%>
+<%--                <c:forEach var="item" items="<%=SystemManage.getInstance().getFriendLinks()%>">--%>
+<%--                    <li><a href="${item.url}" target="${item.target}">${item.name}</a></li>--%>
+<%--                </c:forEach>--%>
             </ul>
         </div>
     </div>
     <div class="foot_bottom">
-        <p> Copyright
-            2016 <%=SystemManage.getInstance().getSystemSetting().getTitle()%> <%=SystemManage.getInstance().getSystemSetting().getIcp()%>
-        </p>
+<%--        <p> Copyright--%>
+<%--            2020 <%=SystemManage.getInstance().getSystemSetting().getTitle()%> <%=SystemManage.getInstance().getSystemSetting().getIcp()%>--%>
+<%--        </p>--%>
     </div>
 </div>
 
